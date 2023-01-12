@@ -14,13 +14,19 @@
       <div class="conteiner-flex">
       <nav  class="container-main_navi">
         <a href="#" class="logo-link"> <span class="logo">WEB</span>STUDIO</a>
-        <button type="button" class="menu-toggle js-open-menu"  aria-expanded="false"
-        aria-controls="mobile-menu">
+        <button type="button" 
+        class="menu-button is-open" 
+        aria-expanded="false"
+        aria-controls="menu-container"
+        data-menu-button>
         <svg width="32" height="22" aria-label="Переключатель мобильного меню">
           <use class="icon-cross" href="./imeges3/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
           <use class="icon-menu" href="./imeges3/symbol-defs.svg#icon-icon-menu"></use>
       </svg>
     </button>
+    <div class="menu-conteiner" id="menu-container" data-menu>
+      privet
+    </div>
         <ul class="list">
           <li class="header-list_items"><a href="#" class="list-studio current">Studio</a></li>
           <li class="header-list_items"><a href="./portfolio.html" class="list-portfolio">Portfolio</a></li>
