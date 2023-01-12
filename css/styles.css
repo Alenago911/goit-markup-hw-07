@@ -20,16 +20,32 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     
 
 .conteiner-flex{
-width: 1158px;
 height: 70px;
 margin: 0 auto;
 padding: 0 16px;
 }
 
 @media screen and (min-width: 428px) {
-.conteiner-flex {width: 428px}
 .subject{
 width: 428px;
+}
+.menu-toggle{
+    position: absolute;
+    display: inline-flex;
+    border: none;
+    background-color: transparent;
+    margin-top: 24px;
+    margin-left: 364px;
+    padding: 0;
+    }
+.menu-toggle.icon-cross{
+display: none;
+}
+.menu-toggle.js-open-menu .icon-cross{
+display: none;
+}
+.menu-toggle.js-open-menu .icon-menu{
+display: none;
 }
 .header-list_items{
 display: none;
@@ -94,18 +110,6 @@ text-decoration: none;
 padding-top: 24px;
 padding-bottom: 24px;
 }
-
-.menu-button{
-position: absolute;
-display: inline-block;
-border: none;
-background-color: transparent;
-margin-top: 24px;
-margin-left: 364px;
-width: 32px;
-height: 22px;
-}
-
 
 .list{
 display: flex; 
