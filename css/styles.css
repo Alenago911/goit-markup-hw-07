@@ -47,6 +47,10 @@ display: none;
 .icon-cross {
 display: none;
 }
+.icon-menu{
+width: 24px;
+height: 24px;
+}
 .menu-conteiner{
 position: absolute;
 display: none;
@@ -858,10 +862,10 @@ padding: 120px 156px;
 }
 .customers-item{
 display: flex;
+flex-wrap: nowrap;
 align-items: center; 
 justify-content: center;
 }
-
 }
 
 .customers{
