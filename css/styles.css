@@ -39,15 +39,17 @@ margin-top: 24px;
 margin-left: 364px;
 padding: 0;
 }
+
 .menu-button .icon-cross{
 display: none;
 }
 .menu-button.is-open .icon-cross{
-display: block;
-}
+    display: block;
+    }
 .menu-button.is-open .icon-menu{
-display: none;
-}
+    display: none;
+    }
+
 .menu-conteiner{
 position: absolute;
 display: none;
