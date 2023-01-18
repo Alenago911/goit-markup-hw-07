@@ -1283,6 +1283,18 @@ margin-right: 16px;
 fill: var(--white);
 }
 
+@media screen and (max-width:320px) {
+.modal{
+width: 320px;
+}
+.input-modal{
+width: 320px;
+}
+.icon-form{
+width: 100%;
+}
+}
+
 @media screen and (min-width: 428px){
 .backdrop{width: 428px}
 .modal{
@@ -1380,9 +1392,6 @@ margin-bottom: 16px;
 color: #2E2F42;
 }
 
-.form-modal{
-width: 360px;
-}
 
 .icon-form{
 position: relative;
