@@ -691,6 +691,14 @@ justify-content: center;
 gap: 24px;
 }
 
+@media screen (max-width: 1199px){
+.work-section{
+display: none;
+}          
+}
+
+
+
 @media screen and (min-width: 428px){
 .work-section {width: 428px}
 .work-section{
