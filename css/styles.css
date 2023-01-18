@@ -80,9 +80,8 @@ display: none;
 }
 .navigation{
 padding-left: 40px;
-padding-top: 24px;
-padding-right: 237px;
 margin-bottom: 284px;
+margin-right: 0;
 }
 .list-navigation{
 list-style-type:none;
@@ -923,7 +922,9 @@ padding-top: 120px;
 padding-bottom: 120px;
 text-align: center;
 }
-    
+
+
+
 @media screen and (min-width: 428px){
 .customers-list{
 padding-top: 96px;
