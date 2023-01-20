@@ -57,7 +57,7 @@ width: 24px;
 height: 24px;
 }
 .menu-conteiner{
-overflow: hidden;
+overflow-y: scroll;
 position: absolute;
 display: none;
 width: 100%;
@@ -69,6 +69,10 @@ background-color: var(--white);
 box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 text-align: center;
 font-size: 20px;
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile{
+margin-top: auto;
 }
 .menu-conteiner.is-open{
 display: block;
@@ -1174,7 +1178,6 @@ width: 1200px;
 padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
-margin-left: 0;
 }
 .fotter-svg-list{
 margin-left: 120px;
